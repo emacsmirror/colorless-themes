@@ -35,9 +35,9 @@
 
 (colorless-themes-make einkless
                        "#fefef0"    ; bg
-                       "#e3e3da"    ; bg+
+                       "#f2f2e4"    ; bg+
                        "#eeeee0"    ; current-line
-                       "#ddddd0"    ; fade
+                       "#ccccc0"    ; fade
                        "#666660"    ; fg
                        "#999990"    ; fg+
                        "#000008"    ; primary
