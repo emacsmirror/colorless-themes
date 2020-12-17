@@ -247,6 +247,8 @@ ORANGE, YELLOW and GREEN are pretty self-explanatory."
       '(company-tooltip-common ((t (:weight bold))))
       '(company-preview-common ((t ())))
       '(company-preview ((t (:background ,fg :foreground ,bg))))
+      '(company-posframe-active-backend-name ((t (:foreground ,bg))))
+      '(company-posframe-metadata ((t (:foreground ,bg+ :weight bold))))
       '(sh-heredoc ((t (:foreground ,docs :weight bold))))
       '(sh-quoted-exec ((t ())))
       '(tuareg-font-lock-governing-face ((t ())))
