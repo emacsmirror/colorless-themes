@@ -47,10 +47,6 @@ line.  BG+ is notably being used in the modline.  FADE is used for whitespace
 characters.  FG+ is used in the cursor and the company tooltip.  Finally, RED,
 ORANGE, YELLOW and GREEN are pretty self-explanatory."
   `(progn
-     (custom-theme-set-variables
-      ',name
-      '(fci-rule-color ,fade))
-
      (custom-theme-set-faces
       ',name
       '(default ((t (:background ,bg :foreground ,fg))))
