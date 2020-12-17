@@ -241,7 +241,7 @@ ORANGE, YELLOW and GREEN are pretty self-explanatory."
       '(company-tooltip ((t (:foreground ,bg :background ,fg+))))
       '(company-scrollbar-fg ((t (:background ,bg))))
       '(company-scrollbar-bg ((t (:background ,fg))))
-      '(company-tooltip-selection ((t (:background ,fade :foreground ,fg+))))
+      '(company-tooltip-selection ((t (:background ,bg :foreground ,fg))))
       '(company-tooltip-annotation ((t (:foreground ,fade))))
       '(company-tooltip-annotation-selection ((t (:foreground ,fg+))))
       '(company-tooltip-common ((t (:weight bold))))
