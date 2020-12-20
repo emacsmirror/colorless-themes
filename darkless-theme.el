@@ -23,10 +23,7 @@
 ;; Keywords: faces theme
 
 ;;; Commentary:
-;; This is a port of dark, which is the original theme that motivated me
-;; to try “mostly colorless themes” to begin with.
-;;
-;; https://github.com/robertmeta/nofrils
+;; This is a simple gray theme built using the colorless-themes macro.
 
 ;;; Code:
 (require 'colorless-themes)

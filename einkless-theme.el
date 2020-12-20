@@ -23,10 +23,9 @@
 ;; Keywords: faces theme
 
 ;;; Commentary:
-;; This is a port of eink, which is the original theme that motivated me
-;; to try “mostly colorless themes” to begin with.
+;; This is a port of eink using the macro provided bycolorless-themes.
 ;;
-;; https://github.com/robertmeta/nofrils
+;; See https://github.com/maio/eink-emacs for the original theme
 
 ;;; Code:
 (require 'colorless-themes)
