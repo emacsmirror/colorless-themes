@@ -28,6 +28,9 @@
 ;; https://github.com/emacsfodder/emacs-lavender-theme/
 
 ;;; Code:
+
+;; -*- lexical-binding: t -*-
+
 (require 'colorless-themes)
 
 (deftheme lavenderless "A mostly colorless version of lavender-theme")

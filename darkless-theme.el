@@ -26,6 +26,9 @@
 ;; This is a simple gray theme built using the colorless-themes macro.
 
 ;;; Code:
+
+;; -*- lexical-binding: t -*-
+
 (require 'colorless-themes)
 
 (deftheme darkless "A colorless, gray theme")

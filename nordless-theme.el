@@ -31,6 +31,9 @@
 ;; [2]: https://github.com/arcticicestudio/nord
 
 ;;; Code:
+
+;; -*- lexical-binding: t -*-
+
 (require 'colorless-themes)
 
 (deftheme nordless "A mostly colorless version of nord-theme")

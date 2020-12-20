@@ -28,6 +28,9 @@
 ;; See https://github.com/maio/eink-emacs for the original theme
 
 ;;; Code:
+
+;; -*- lexical-binding: t -*-
+
 (require 'colorless-themes)
 
 (deftheme einkless "A colorless port of eink-theme")
