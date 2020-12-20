@@ -67,7 +67,7 @@ ORANGE, YELLOW and GREEN are pretty self-explanatory."
       '(italic ((t (:slant italic))))
       '(underline ((t (:underline ,fg))))
       '(shadow ((t ())))
-      '(region ((t (:background ,fade))))
+      '(region ((t (:background ,fade :distant-foreground nil))))
       '(escape-glyph ((t ())))
       '(font-lock-warning-face ((t ())))
       '(font-lock-negation-char-face ((t ())))
