@@ -65,6 +65,7 @@ ORANGE, YELLOW and GREEN are pretty self-explanatory."
       '(link ((t (:underline ,docs))))
       '(secondary-selection ((t ())))
       '(italic ((t (:slant italic))))
+      '(underline ((t (:underline ,fg))))
       '(shadow ((t ())))
       '(region ((t (:background ,bg+))))
       '(escape-glyph ((t ())))
