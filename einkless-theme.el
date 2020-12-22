@@ -1,6 +1,6 @@
-;;; einkless-theme.el --- A colorless port of eink-theme
+;;; einkless-theme.el --- A mostly colorless version of nord-theme
 
-;; Copyright (C) 2019–2020 Thomas Letan
+;; Copyright (C) 2020 Thomas Letan
 ;;
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program. If not, see <https://www.gnu.org/licenses/>.
 
-;; Author: Thomas Letan <contact@thomasletan.fr>
+;; Author: Thomas Letan <lthms@soap.coffee>
 ;; URL: https://git.sr.ht/~lthms/colorless-themes.el
 ;; Version: 0.2
 ;; Package-Requires: ((colorless-themes "0.2"))
@@ -23,9 +23,8 @@
 ;; Keywords: faces theme
 
 ;;; Commentary:
-;; This is a port of eink using the macro provided bycolorless-themes.
-;;
-;; See https://github.com/maio/eink-emacs for the original theme
+;; This file has been automatically generated from a template of the
+;; colorless themes project.
 
 ;;; Code:
 
@@ -33,7 +32,7 @@
 
 (require 'colorless-themes)
 
-(deftheme einkless "A colorless port of eink-theme")
+(deftheme einkless "A mostly colorless version of nord-theme")
 
 (colorless-themes-make einkless
                        "#fefef0"    ; bg
@@ -42,7 +41,7 @@
                        "#ccccc0"    ; fade
                        "#666660"    ; fg
                        "#999990"    ; fg+
-                       "#000008"    ; primary
+                       "#000008"    ; docstring
                        "#ed6666"    ; red
                        "#FFBF00"    ; orange
                        "#fff1aa"    ; yellow

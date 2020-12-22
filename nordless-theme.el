@@ -1,6 +1,6 @@
 ;;; nordless-theme.el --- A mostly colorless version of nord-theme
 
-;; Copyright (C) 2018–2020 Thomas Letan
+;; Copyright (C) 2018-2020 Thomas Letan
 ;;
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program. If not, see <https://www.gnu.org/licenses/>.
 
-;; Author: Thomas Letan <contact@thomasletan.fr>
+;; Author: Thomas Letan <lthms@soap.coffee>
 ;; URL: https://git.sr.ht/~lthms/colorless-themes.el
 ;; Version: 0.2
 ;; Package-Requires: ((colorless-themes "0.2"))
@@ -23,12 +23,8 @@
 ;; Keywords: faces theme
 
 ;;; Commentary:
-;; This is a so-called colorless theme, derived thanks to the macro of the
-;; colorless-themes[1] package.  The main source of inspiration of this theme is
-;; nord[2], an arctic, north-bluish color palette.
-;;
-;; [1]: https://git.sr.ht/~lthms/colorless-themes
-;; [2]: https://github.com/arcticicestudio/nord
+;; This file has been automatically generated from a template of the
+;; colorless themes project.
 
 ;;; Code:
 
@@ -45,7 +41,7 @@
                        "#4C566A"    ; fade
                        "#D8DEE9"    ; fg
                        "#E5E9F0"    ; fg+
-                       "#88C0D0"    ; primary
+                       "#88C0D0"    ; docstring
                        "#BF616A"    ; red
                        "#D08770"    ; orange
                        "#EBCB8B"    ; yellow

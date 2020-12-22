@@ -1,6 +1,6 @@
 ;;; lavenderless-theme.el --- A mostly colorless version of lavender-theme
 
-;; Copyright (C) 2019–2020 Thomas Letan
+;; Copyright (C) 2019-2020 Thomas Letan
 ;;
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program. If not, see <https://www.gnu.org/licenses/>.
 
-;; Author: Thomas Letan <contact@thomasletan.fr>
+;; Author: Thomas Letan <lthms@soap.coffee>
 ;; URL: https://git.sr.ht/~lthms/colorless-themes.el
 ;; Version: 0.2
 ;; Package-Requires: ((colorless-themes "0.2"))
@@ -23,9 +23,8 @@
 ;; Keywords: faces theme
 
 ;;; Commentary:
-;; The main source of inspiration of this theme is Lavender.
-;;
-;; https://github.com/emacsfodder/emacs-lavender-theme/
+;; This file has been automatically generated from a template of the
+;; colorless themes project.
 
 ;;; Code:
 
@@ -42,7 +41,7 @@
                        "#51415C"    ; fade
                        "#E0CEED"    ; fg
                        "#d2c2d7"    ; fg+
-                       "#68d3a7"    ; primary
+                       "#68d3a7"    ; docstring
                        "#cc3333"    ; red
                        "#FF6200"    ; orange
                        "#F4DC97"    ; yellow

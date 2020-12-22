@@ -1,6 +1,6 @@
-;;; darkless-theme.el --- A colorless, gray theme
+;;; darkless-theme.el --- A colorless, gray, monochrome theme
 
-;; Copyright (C) 2019–2020 Thomas Letan
+;; Copyright (C) 2019-2020 Thomas Letan
 ;;
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program. If not, see <https://www.gnu.org/licenses/>.
 
-;; Author: Thomas Letan <contact@thomasletan.fr>
+;; Author: Thomas Letan <lthms@soap.coffee>
 ;; URL: https://git.sr.ht/~lthms/colorless-themes.el
 ;; Version: 0.2
 ;; Package-Requires: ((colorless-themes "0.2"))
@@ -23,7 +23,8 @@
 ;; Keywords: faces theme
 
 ;;; Commentary:
-;; This is a simple gray theme built using the colorless-themes macro.
+;; This file has been automatically generated from a template of the
+;; colorless themes project.
 
 ;;; Code:
 
@@ -31,7 +32,7 @@
 
 (require 'colorless-themes)
 
-(deftheme darkless "A colorless, gray theme")
+(deftheme darkless "A colorless, gray, monochrome theme")
 
 (colorless-themes-make darkless
                        "#2D2A2E"    ; bg
@@ -40,7 +41,7 @@
                        "#5b595c"    ; fade
                        "#b8b8b8"    ; fg
                        "#C1C0C0"    ; fg+
-                       "#FFFFFF"    ; primary
+                       "#FFFFFF"    ; docstring
                        "#FF6188"    ; red
                        "#fc9867"    ; orange
                        "#ffd866"    ; yellow
