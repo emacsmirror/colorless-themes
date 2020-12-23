@@ -44,7 +44,7 @@
                        "#000008"    ; docstring
                        "#ed6666"    ; red
                        "#FFBF00"    ; orange
-                       "#fff1aa"    ; yellow
+                       "#d1b838"    ; yellow
                        "#87c484")   ; green
 
 ;;;###autoload
