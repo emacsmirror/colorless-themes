@@ -36,7 +36,7 @@
 
 ;; -*- lexical-binding: t -*-
 
-(defmacro colorless-themes-make (name bg bg+ current-line fade fg fg+ docs red orange yellow green)
+(defmacro colorless-themes-make (name bg bg+ current-line fade fg fg+ docs red warning yellow green)
   "A generic macro to create new themes.
 
 Using this macro, it only takes minutes to write a new colorless theme.  To
@@ -45,7 +45,7 @@ primary colors are BG, FG and DOCS.  They together form the identity of the
 newly created theme.  CURRENT-LINE is the background color of, well, the current
 line.  BG+ is notably being used in the modline.  FADE is used for whitespace
 characters.  FG+ is used in the cursor and the company tooltip.  Finally, RED,
-ORANGE, YELLOW and GREEN are pretty self-explanatory."
+WARNING, YELLOW and GREEN are pretty self-explanatory."
   `(progn
      (custom-theme-set-faces
       ',name
@@ -121,7 +121,7 @@ ORANGE, YELLOW and GREEN are pretty self-explanatory."
       '(org-level-8 ((t (:foreground ,docs :weight bold))))
       '(org-date ((t ())))
       '(org-tag ((t (:foreground ,docs))))
-      '(org-todo ((t (:foreground ,yellow))))
+      '(org-todo ((t (:foreground ,warning))))
       '(org-done ((t (:foreground ,green))))
       '(org-block ((t ())))
       '(org-block-begin-line ((t (:foreground ,fg+ :height 0.8))))
@@ -135,7 +135,7 @@ ORANGE, YELLOW and GREEN are pretty self-explanatory."
       '(proof-locked-face ((t (:background ,fade))))
       '(proof-queue-face ((t (:background ,bg+))))
       '(proof-error-face ((t (:underline ,red))))
-      '(proof-warning-face ((t (:underline ,orange))))
+      '(proof-warning-face ((t (:underline ,warning))))
       '(proof-declaration-name-face ((t (:weight bold))))
       '(coq-cheat-face ((t (:foreground ,bg :background ,red))))
       '(coq-solve-tactics-face ((t ())))
@@ -158,12 +158,12 @@ ORANGE, YELLOW and GREEN are pretty self-explanatory."
       '(diff-hl-delete ((t (:foreground ,fade :background ,red))))
       '(flycheck-info ((t (:underline ,green))))
       '(flycheck-error ((t (:underline ,red))))
-      '(flycheck-warning ((t (:underline ,orange))))
+      '(flycheck-warning ((t (:underline ,warning))))
       '(flycheck-fringe-info ((t (:foreground ,green))))
       '(flycheck-fringe-error ((t (:foreground ,red))))
-      '(flycheck-fringe-warning ((t (:foreground ,orange))))
+      '(flycheck-fringe-warning ((t (:foreground ,warning))))
       '(flyspell-incorrect ((t (:underline ,red))))
-      '(flyspell-duplicate ((t (:underline ,orange))))
+      '(flyspell-duplicate ((t (:underline ,warning))))
       '(fringe ((t (()))))
       '(git-commit-summary ((t ())))
       '(git-commit-overlong-summary ((t (:foreground ,red))))
