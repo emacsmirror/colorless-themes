@@ -41,9 +41,9 @@
                        "#ccccc0"    ; fade
                        "#666660"    ; fg
                        "#999990"    ; fg+
-                       "#000008"    ; docstring
+                       "#0d0b02"    ; docstring
                        "#ed6666"    ; red
-                       "#FFBF00"    ; orange
+                       "#383007"    ; orange
                        "#d1b838"    ; yellow
                        "#87c484")   ; green
 
